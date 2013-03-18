@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Personen>
+	<person id='1'>
+		<vorname>Kalle</vorname>
+		<name>K.</name>
+		<e-mail></e-mail>
+		<geburtsdatum></geburtsdatum>
+		<erfahrung stufe='4'/>
+		<schlagzeug vorhanden="ja"/>
+		<anmerkung></anmerkung>
+	</person>
+<personen/>
