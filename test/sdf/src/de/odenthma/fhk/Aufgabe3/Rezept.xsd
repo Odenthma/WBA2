@@ -24,13 +24,13 @@
 			<xsd:element type="xsd:string" name="ruhezeit"/>
 			<xsd:element name="schwierigkeitsgrad">
             	<xsd:simpleType>
-                	<xsdd:restriction base="xsdd:string">
-                    	<xsdd:enumeration value="simpel"/>
-                        <xsdd:enumeration value="normal"/>
-                        <xsdd:enumeration value="schwer"/>
-                    </xsdd:restriction>
-                </xsdd:simpleType>
-            </xsdd:element>
+                	<xsd:restriction base="xsd:string">
+                    	<xsd:enumeration value="simpel"/>
+                        <xsd:enumeration value="normal"/>
+                        <xsd:enumeration value="schwer"/>
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:element>
 			<xsd:element type="xsd:short" name="brennwert"/>
 			<xsd:element type="xsd:byte" name="portionen"/>
 			<xsd:element name="zutaten">
