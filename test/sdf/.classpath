@@ -2,10 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry kind="lib" path="C:/Users/Odenthma/Downloads/jaxb-ri-2.2.6/jaxb-ri-2.2.6/lib/jaxb-api.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Odenthma/Downloads/jaxb-ri-2.2.6/jaxb-ri-2.2.6/lib/jaxb-impl.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Odenthma/Downloads/jaxb-ri-2.2.6/jaxb-ri-2.2.6/lib/jaxb-impl-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Odenthma/Downloads/jaxb-ri-2.2.6/jaxb-ri-2.2.6/lib/jaxb-xjc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Odenthma/Downloads/jaxb-ri-2.2.6/jaxb-ri-2.2.6/lib/jaxb-xjc-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Odenthma/Downloads/jaxb-ri-2.2.6/jaxb-ri-2.2.6/lib/jaxb-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Odenthma/Downloads/jaxb-ri-2.2.6/jaxb-ri-2.2.6/lib/jaxb-impl.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Odenthma/Downloads/jaxb-ri-2.2.6/jaxb-ri-2.2.6/lib/jaxb-impl-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Odenthma/Downloads/jaxb-ri-2.2.6/jaxb-ri-2.2.6/lib/jaxb-xjc.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Odenthma/Downloads/jaxb-ri-2.2.6/jaxb-ri-2.2.6/lib/jaxb-xjc-javadoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Odenthma/Downloads/JsonEditorPlugin-0.9.4/plugins/json.editor.plugin_0.9.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

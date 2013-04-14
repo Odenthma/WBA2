@@ -1,0 +1,29 @@
+"gruppenleiter": {
+        "vorname": "Max",
+        "nachname": "Mustermann",
+        "email": "Max@muster.de",
+        "geburtsdatum": "1976-08-01",
+        "erfahrung": "Amateur",
+        "schlagzeug": "vorhanden",
+        "anmerkung": ""
+    },
+    "personen":
+        [{
+            "vorname": "MA",
+            "nachname": "OD",
+            "email": "bla@gdfd.de",
+            "geburtsdatum": "1975-02-23",
+            "erfahrung": "Amateur",
+            "schlagzeug": "nicht vorhanden",
+            "anmerkung": ""
+        },
+        {
+            "vorname": "Jane",
+            "nachname": "Ka",
+            "email": "kk@kk.com",
+            "geburtsdatum": "1998-03-10",
+            "erfahrung": "Amateur",
+            "schlagzeug": "vorhanden",
+            "anmerkung": ""
+        }]
+}

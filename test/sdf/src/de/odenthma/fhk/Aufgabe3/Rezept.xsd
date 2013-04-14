@@ -1,0 +1,78 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="rezept">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element type="xsd:string" name="rezeptname"/>
+				<xsd:element type="xsd:string" name="beschreibung"/>
+				<xsd:element name="fotos">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="foto" maxOccurs="unbounded" minOccurs="0">
+							<xsd:complexType>
+								<xsd:sequence>
+									<xsd:element type="xsd:string" name="benutzername" minOccurs="0"/>
+									<xsd:element type="xsd:string" name="benutzer" minOccurs="0"/>
+									<xsd:element type="xsd:anyURI" name="adresse"/>
+								</xsd:sequence>
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+			</xsd:complexType>
+			</xsd:element>
+			<xsd:element type="xsd:byte" name="arbeitszeit"/>
+			<xsd:element type="xsd:string" name="kochbackzeit"/>
+			<xsd:element type="xsd:string" name="ruhezeit"/>
+			<xsd:element name="schwierigkeitsgrad">
+            	<xsd:simpleType>
+                	<xsdd:restriction base="xsdd:string">
+                    	<xsdd:enumeration value="simpel"/>
+                        <xsdd:enumeration value="normal"/>
+                        <xsdd:enumeration value="schwer"/>
+                    </xsdd:restriction>
+                </xsdd:simpleType>
+            </xsdd:element>
+			<xsd:element type="xsd:short" name="brennwert"/>
+			<xsd:element type="xsd:byte" name="portionen"/>
+			<xsd:element name="zutaten">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="zutat" maxOccurs="unbounded" minOccurs="0">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element type="xsd:string" name="name"/>
+							<xsd:element name="menge">
+							<xsd:complexType>
+								<xsd:simpleContent>
+									<xsd:extension base="xsd:string">
+										<xsd:attribute type="xsd:string" name="einheit" use="optional"/>
+										<xsd:attribute type="xsd:float" name="wert" use="optional"/>
+									</xsd:extension>
+								</xsd:simpleContent>
+							</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+			</xsd:element>
+			<xsd:element type="xsd:string" name="zubereitung"/>
+			<xsd:element name="kommentare">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="kommentar" maxOccurs="unbounded" minOccurs="0">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element type="xsd:string" name="benutzername"/>
+							<xsd:element type="xsd:dateTime" name="geschrieben_am"/>
+							<xsd:element type="xsd:string" name="nachricht"/>
+						</xsd:sequence>
+					</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+</xsd:schema>
