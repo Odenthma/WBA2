@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rezept xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Users\Odenthma\Desktop\XSDFile1.xsd">
+    <rezeptname>string</rezeptname>
+    <beschreibung>string</beschreibung>
+    <fotos>
+        <foto>
+            <adresse>http://www.liquid-technologies.com</adresse>
+        </foto>
+    </fotos>
+    <arbeitszeit>121</arbeitszeit>
+    <kochbackzeit>string</kochbackzeit>
+    <ruhezeit>string</ruhezeit>
+    <schwierigkeitsgrad>schwer</schwierigkeitsgrad>
+    <brennwert>-9690</brennwert>
+    <portionen>119</portionen>
+    <zutaten>
+        <zutat>
+            <name>string</name>
+            <menge einheit="string" wert="-6878.96509">string</menge>
+        </zutat>
+        <zutat>
+            <name>string</name>
+            <menge wert="-8467.16509">string</menge>
+        </zutat>
+        <zutat>
+            <name>string</name>
+            <menge wert="4624.05491">string</menge>
+        </zutat>
+        <zutat>
+            <name>string</name>
+            <menge>string</menge>
+        </zutat>
+    </zutaten>
+    <zubereitung>string</zubereitung>
+    <kommentare>
+        <kommentar>
+            <benutzername>string</benutzername>
+            <geschrieben_am>2005-11-03T23:33:45.93</geschrieben_am>
+            <nachricht>string</nachricht>
+        </kommentar>
+        <kommentar>
+            <benutzername>string</benutzername>
+            <geschrieben_am>2005-01-24T03:05:05.98</geschrieben_am>
+            <nachricht>string</nachricht>
+        </kommentar>
+    </kommentare>
+</rezept>
