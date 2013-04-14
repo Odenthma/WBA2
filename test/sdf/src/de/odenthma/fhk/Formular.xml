@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registrierung>
+    <gruppenleiter>
+        <vorname>Max</vorname>
+        <nachname>Mustermann</nachname>
+        <email>Max@muster.de</email>
+        <geburtsdatum>1976-08-01</geburtsdatum>
+        <erfahrung>Amateur</erfahrung>
+        <schlagzeug>vorhanden</schlagzeug>
+        <anmerkung></anmerkung>
+    </gruppenleiter>
+    <personen>
+        <person>
+            <vorname>MA</vorname>
+            <nachname>OD</nachname>
+            <email>bla@gdfd.de</email>
+            <geburtsdatum>1975-02-23</geburtsdatum>
+            <erfahrung>Amateur</erfahrung>
+            <schlagzeug>nicht vorhanden</schlagzeug>
+            <anmerkung></anmerkung>
+        <person>
+        <person>
+            <vorname>Kalle</vorname>
+            <nachname>Ka</nachname>
+            <email>kk@kk.com</email>
+            <geburtsdatum>1998-03-10</geburtsdatum>
+            <erfahrung>Amateur</erfahrung>
+            <schlagzeug>vorhanden</schlagzeug>
+            <anmerkung></anmerkung>
+        <person>
+    </personen>
+</registrierung>
